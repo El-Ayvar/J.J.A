@@ -1,0 +1,84 @@
+ul{
+    font-family: "Silkscreen";
+    font-size: 20px;
+}
+
+
+
+/*ul.estrella li{
+    list-style-type: none; 
+}
+
+ul.estrella li::before {
+    content: '★'; 
+    color:aqua; 
+    margin-right: 8px; 
+}
+*/
+#martillo {
+    list-style-type: none;
+}
+
+#martillo::before {
+    content: '';
+    background-image: url('../img/img_index/martillo.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+#casco {
+    list-style-type: none;
+}
+
+#casco::before {
+    content: '';
+    background-image: url('../img/img_index/casco.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+#escudo {
+    list-style-type: none;
+}
+
+#escudo::before {
+    content: '';
+    background-image: url('../img/img_index/tenor.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+h1{
+    font-family: "Sixtyfour Convergence";
+    font-size: 50px;
+}  
+
+html, body {
+    height: 100%; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0;    /* Quita cualquier margen por defecto */
+}
+
+
+body {
+    background-image: url('../img/img_index/fondo_web2.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    text-align: center;
+}
+

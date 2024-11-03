@@ -1,0 +1,111 @@
+#corona {
+    width: 70px;
+    position: absolute;
+    top: 50px;
+    left: 899px;
+}
+#corona2 {
+    width: 70px;
+    position:absolute;
+    top: 50px;
+    left: 505px;
+}
+
+body {
+    background-image: url('../img/img_jorge/fondo.png');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    text-align: center;
+}
+
+h1{
+    font-family: "Condiment";
+    font-size: 50px;
+    color:rgb(110, 14, 14);
+}
+
+#volver {
+    color: rgb(134, 8, 8);
+    font-size: 19px;
+}
+
+#volver {
+    list-style-type: none;
+}
+
+#volver::before {
+    content: '';
+    background-image: url('../img/img_jorge/flecha.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+h2{
+    font-family: "Mynerve";
+    color: rgb(120, 2, 2);
+}
+
+h3{
+    font-family: "Zeyada";
+    font-size: 25px;
+    color: rgb(103, 11, 11);
+}
+
+p{
+    font-family: "Courgette";
+    color: rgb(71, 35, 12);
+}
+
+#mona1{
+    width: 200px;
+    position:absolute;
+    top: 1320px;
+    left: 250px;
+}
+
+#mona2{
+    width: 200px;
+    position:absolute;
+    top: 1470px;
+    left: 250px;  
+}
+
+#mona3{
+    width: 200px;
+    position:absolute;
+    top: 1320px;
+    left: 1000px;
+}
+
+#mona4{
+    width: 200px;
+    position:absolute;
+    top: 1470px;
+    left: 1000px;
+}
+
+#asomada{
+    width: 300px;
+    position: absolute;
+    top: 1600px;
+    left: 1166px;
+}
+
+#kirby{
+    position: relative;
+    animation: mover 50s infinite;
+    width: 150px;
+    top: -1610px;
+    left: -650px;
+}
+
+@keyframes mover{
+    0% {top: 50;}
+    100% {top: 0vh;}
+}
