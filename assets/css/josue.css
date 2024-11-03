@@ -1,0 +1,26 @@
+body{
+    background-image: url('../img/img_josue/fondo2.jpg');
+    background-size: cover; /* ajusta la imagen para cubrir toda la pantalla*/
+    background-repeat: no-repeat; /*evita que la imagen se repita */
+    background-position: center; /*centra la imagen */
+    text-align: center;   
+    
+}
+
+h1{
+    font-family: "Sixtyfour Convergence";
+    
+}
+
+h2{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    
+}
+
